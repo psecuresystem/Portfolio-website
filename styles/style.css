@@ -952,7 +952,7 @@ section {
   pointer-events: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .controls {
     top: auto;
     bottom: 0;
