@@ -17,6 +17,12 @@ function PageTransitions(){
             activeSection.classList.add('active')
         })
     }
+
+    //Toggle theme
+    const themeBtn = document.querySelector('.theme-btn')
+    themeBtn.addEventListener('click', e => {
+        let element = document.body.classList.toggle('light-mode')
+    })
 }
 
 PageTransitions()
